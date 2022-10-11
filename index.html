@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coding Loopz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .cas_img_css {
+      height: 450px ! important;
+      margin-top: 20px ! important;
+    }
+
+    .cus_navbar {
+      /* background: linear-gradient(to top right, #33ccff 0%, #99ff99 100%); */
+      background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    }
+
+    .card-img-top {
+      height: 250px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Alert!</strong> Please Read Our Disclaimer Before Proceeding.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <nav class="navbar navbar-expand-lg cus_navbar">
+    <!-- val image dia 🤣🤣 -->
+    <!-- sai asu -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Coding Loopz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web development</a></li>
+              <li><a class="dropdown-item" href="#">Android Development</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Graphic design</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ------------------------------------carousel-------------------------------------- -->
+  <div class="container">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.investopedia.com/thmb/394cLcUOcKTq5xePXpoIRi34JSo=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1215628293-c32a14bc41c34aa9adee9e41f6c7fb68.jpg"
+            class="d-block w-100 cas_img_css" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="background-color: blue;">Elon Musk</h5>
+            <p>World Richest Man In 2022</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.investopedia.com/thmb/dKFyhSMosnpMkzF1MxY4fyvYYuM=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1036094130-cf8da629f9b44c81a0b1398311ac5787.jpg"
+            class="d-block w-100 cas_img_css" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="background-color: blue;">Jeff Bezos</h5>
+            <p>World Second Richest Man in 2022</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.investopedia.com/thmb/qqkSwvPma3IUVa82SVOydjHz_48=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-696695914-895a5475a7f8412c9239900be0ea5179.jpg"
+            class="d-block w-100 cas_img_css" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="background-color: blue;">Bernault Arnold</h5>
+            <p>World Third Richest Man in 2022</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.vox-cdn.com/thumbor/1ttXq2Cyc-ILdqoPE81EVRbh9zI=/0x0:4000x2994/1200x800/filters:focal(1926x380:2566x1020)/cdn.vox-cdn.com/uploads/chorus_image/image/71362251/1419542855.0.jpg"
+            class="d-block w-100 cas_img_css" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="background-color: blue;">Bill Gates</h5>
+            <p>World fourth Richest Man in 2022</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------------- -->
+
+
+
+
+
+  <!-- -------------------------------------------------------------------- -->
+  <div class="container my-4">
+    <div class="card-group mx-3 ">
+      <div class="card mx-3  bg-info">
+        <img
+          src="https://techviral.net/wp-content/uploads/2019/04/Top-10-Ways-To-Earn-Money-With-Your-Smartphone-696x365-1.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How to Earn Money Online <span class="badge bg-warning">New</span></h5>
+          <p class="card-text">Make money online by watching ads, filling out surveys, playing games, writing comments,
+            typing texts, answering questions, completing offers and more. Begins Your Journey Of Online Income</p>
+          <a href="https://www.oberlo.com/blog/how-to-make-money-online" target="_blank"> <button
+              class="btn btn-primary"> Read More</button></a>
+        </div>
+      </div>
+      <div class="card mx-3 bg-info">
+        <img src="https://biharhelp.in/wp-content/uploads/2021/05/Capture-min-54.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Affiliate Marketing - Earn Money Online <span class="badge bg-warning">New</span></h5>
+          <p class="card-text">With the aid of the Internet, you can almost have everything right at your fingertips.
+            With just a few clicks you get access to thousands and even millions of pieces of information and data on
+            virtually any field of interest.</p>
+          <a href="https://www.reliablesoft.net/make-money-affiliate-marketing/" target="_blank"> <button
+              class="btn btn-primary"> Read More</button></a>
+        </div>
+      </div>
+      <div class="card mx-3 bg-info">
+        <img
+          src="https://1.bp.blogspot.com/-tW_fUypbs9I/YDZLFqqPyxI/AAAAAAAAI1s/7xjUF2XgIa4aJ7VL8Qj7zGc2A_OdxO6fgCLcBGAsYHQ/w1200-h630-p-k-no-nu/youtube-se-paise-kaise-kamaye-in-hindi.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Earn Money Online From YouTube <span class="badge bg-warning">New</span></h5>
+          <p class="card-text">When it comes to turning your ideas into income, you've got options.
+            From traditional ads to selling merchandise to memberships for your fans, there are a lot of ways to use
+            your channel and videos to make money.</p>
+          <a href="https://blog.hootsuite.com/how-to-make-money-on-youtube/" target="_blank"> <button
+              class="btn btn-primary"> Read More</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!--etu nki-->
+</body>
+
+</html>
+
+
+
+<!-- it works :) -->
+<!-- ki korila -->
+
+
+<!-- js t kiba problem asile neki, moi js link chnage kori disu -->
+
+<!-- dia dia web site r name change kora val laga nai 🤣🤣🤣 -->
+
+
+
+<!-- ki bonai asa aitu, moko kua -->
+<!-- website using bootstrap -->
+
+<!-- ki website -->
+<!-- najnu bootstraptry kori asu  -->
+
+<!-- 😂😂😂😂 -->
+
+<!-- topic ata loi lua  -->
+<!-- education website bonam nki like cs coder -->
+
+
+<!-- 👍👍 -->
+
+<!-- dia tolot cards logua tumi -->
+<!-- okk -->
+
+
+
+<!-- hello ki hl ki korila 😱😱😱 -->
+
+
+
+
+<!-- ki hoi gl -->
